@@ -1,0 +1,59 @@
+body{
+    background-image: url(../images/contact.jpg);
+}
+header{
+    background-color: rgb(68, 160, 68);
+    margin: 0 ;
+    padding: 20px 10px;
+    border-radius: 10%;
+}
+
+header a{
+
+  text-decoration: none;
+  padding: 10px 12px;
+  font-size: 20px;
+  color: rgb(87, 70, 56);;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header a.Papa-pizza {
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+    color:  rgb(151, 51, 25);
+
+}
+.headerLeft{
+    float: right;
+}
+.headerLeft a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 25%;
+}
+header a.active{
+    background-color: rgb(151, 51, 25);
+    color: honeydew;
+    border-radius: 25%;
+}
+h1{
+    background-color: red;
+}
+table{
+    float: right;
+    background-color: seashell;
+}
+
+form{
+    float: right;
+    color: white;
+    font-size: 32px;
+    
+}
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
