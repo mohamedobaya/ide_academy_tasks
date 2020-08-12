@@ -1,0 +1,242 @@
+body{
+    
+    font-family: DejaVu Sans Mono, monospace;
+    margin: auto;
+}
+/*about part*/
+
+.about{
+    background-image: url(../images/laptop.jpg);
+    margin: 0;
+    
+}
+.flex-navbar{
+    
+    height: 100px;
+    display: flex;
+    /*
+    flex-direction: row; /* Default value => row
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;    
+}
+
+.navbar-nav a:hover{
+    color: rgb(255, 81, 0);
+}
+.flex-navbar > .navbar-brand{
+    color: white;
+    text-indent: 100px;
+    font-size: 36px;
+    margin: 10px;
+}
+.flex-navbar > .navbar-nav{
+    align-items: flex-end;
+    font-size: 24px;
+    margin: 10px;
+}
+.navbar-nav{
+    text-indent: 30px;
+}
+
+ul{
+    list-style: none;
+
+    float: right;
+}
+ul li{
+    display: inline-block;
+}
+.about>h1{
+    width: 50%;
+    text-align: center;
+    font-size: 40px;
+    margin: auto;
+    color: white;
+    
+    font-family: DejaVu Sans Mono, monospace;
+    
+}
+hr{
+    color: rgb(255, 81, 0);
+    margin: 0 auto;
+    width: 5%;
+    border-radius: 100px;
+    border: 2px solid rgb(255, 81, 0);
+}
+p{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    color: white;
+}
+.find-out-more{
+    background-color: rgb(255, 81, 0);
+    border: none;
+    border-radius: 100px;
+    display: flex;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+    
+}
+/*portfolio*/
+.portfolio{
+    background-color: rgb(255, 81, 0);
+}
+.portfolio > h1{
+    width: 50%;
+    text-align: center;
+    font-size: 40px;
+    margin: auto;
+    color: white;
+}
+.portfolio > hr{
+    color: white;
+    margin: 0 auto;
+    width: 5%;
+    border-radius: 100px;
+    border: 2px solid white;
+}
+.GET-STARTED{
+    background-color: white;
+    border: none;
+    border-radius: 100px;
+    display: flex;
+    color: rgb(255, 81, 0);
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+    
+}
+/*services*/
+.services{
+    background-color: white;
+    
+}
+.services > h1{
+    color: black;
+    width: 50%;
+    text-align: center;
+    font-size: 40px;
+    margin: auto;
+}
+.flex-icons > div  > p{
+    color: black;
+}
+.flex-icons{
+    
+    color: rgb(255, 81, 0);
+    font-size: 80px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-around;
+}
+.flex-icons > div>h2{
+    color: black;
+    margin: auto;
+    text-align: center;
+    font-size: 32px;
+}
+.photos{
+    padding: 0px;
+    margin: 0 auto;
+    width: 100%;
+}
+.row{
+    display: flex;
+}
+.photo{
+    padding: 0px;
+    display: flex;
+    height: 250px;
+    
+
+}
+.services > hr{
+    color: rgb(255, 81, 0);
+    margin: 0 auto;
+    width: 5%;
+    border-radius: 100px;
+    border: 2px solid rgb(255, 81, 0);
+}
+.download{
+    background-color: rgb(51, 51, 51);
+}
+.download > h2 {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+.DOWNLOAD-NOW{
+    background-color: white;
+    border: none;
+    border-radius: 100px;
+    display: flex;
+    color: rgb(51, 51, 51);
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+}
+/*Contact*/
+.contact{
+    background-color: white;
+    
+    
+}
+
+.contact > h1{
+    color: black;
+    width: 50%;
+    text-align: center;
+    font-size: 40px;
+    margin: auto;
+}
+.contact > p{
+    color: black;
+}
+.flex-icons-contact{
+    
+    color: rgb(51, 51, 51);
+    font-size: 80px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-around;
+}
+.flex-icons-contact > div > p{
+    color: black;
+    width: 100%;
+    margin-top: 30px;
+}
+.flex-icons-contact > div > .mail{
+    color: rgb(255, 81, 0);;
+    width: 100%;
+}
+/*Copyrights*/
+.copy-rights{
+    background-color: silver;
+    padding: 50px;
+    display: flex;
+}
+.copy-rights > p{
+    color: black;
+}
