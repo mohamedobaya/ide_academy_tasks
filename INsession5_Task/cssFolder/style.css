@@ -53,3 +53,64 @@ ul{
 .navbar .container .links ul li a:hover{
     color: yellow;
 }
+/*Contact*/
+.contact{
+    background-color: white;
+    
+    
+}
+
+.contact > h1{
+    color: black;
+    width: 50%;
+    text-align: center;
+    font-size: 40px;
+    padding: 100px 50px;
+    margin: auto;
+}
+.contact > hr{
+    color: yellow;
+    margin: 0 auto;
+    width: 5%;
+    border-radius: 100px;
+    border: 2px solid yellow;
+}
+.contact > p{
+    text-align: center;
+    padding: 20px 50px;
+    color: black;
+    font-size: 20px;
+}
+.flex-icons-contact{
+    
+    color: rgb(51, 51, 51);
+    font-size: 50px;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-around;
+    padding: 50px 50px;
+}
+.flex-icons-contact > div > p{
+    color: black;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.flex-icons-contact > div > .mail{
+    color: yellow;
+    size: 100px;
+    width: 100%;
+}
+/*Copyrights*/
+.copy-rights{
+    background-color: silver;
+    padding: 50px;
+    margin: 0 auto;
+    display: flex;
+}
+.copy-rights > p{
+    color: black;
+}
