@@ -6,9 +6,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-body ,html{
-    font-family: 'Roboto' ,sans-serif;
-    line-height :1.8rem;
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height :1.7rem;
 }
 a{
     text-decoration: none;
@@ -42,14 +42,14 @@ ul{
 .navbar{
     padding: 18px 0;
 }
-.navbar >.nav-items{
+.navbar .nav-items{
     display: flex;
     justify-content: space-between;
 }
-.navbar >.nav-items >.links >ul> li{
+.navbar .nav-items .links ul li{
     display: inline-block;
     padding: 0 8px;
 }
-.navbar >.nav-items >.links >ul >li >a::hover{
+.navbar .container .links ul li a:hover{
     color: yellow;
 }
