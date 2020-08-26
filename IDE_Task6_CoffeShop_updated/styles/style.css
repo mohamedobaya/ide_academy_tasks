@@ -1,0 +1,295 @@
+@charset 'utf-8';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;;
+}
+a{
+    text-decoration: none;
+    color :white;
+}
+a:hover{
+    text-decoration: none;
+    
+}
+
+/* Navbar*/
+.navbar{
+    background-color: #252525 !important;
+    padding: 22px;
+    font-size: 18px;
+    position: sticky;
+}
+.navbar .container .navbar-nav {
+    margin-left:220px;
+}
+.navbar .container .navbar-nav .nav-item .nav-link{
+    color: white !important;
+}
+.navbar .container .navbar-nav .nav-item .nav-link:hover{
+    color: #F76D37 !important;
+}
+.navbar .container .navbar-nav .active .nav-link{
+    color: #F76D37 !important;
+}
+
+/*Showcase*/
+/*Show case*/
+.showcase {
+    background-image: url(../images/banner-bg.png);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    
+}
+.showcase .container .mainheading{
+    padding-top: 100px;
+    margin: 0 auto; 
+    color: #252525;
+    font-size: 60px;
+}
+.showcase .container .subheading{
+    margin: 0 auto; 
+    font-size: 70px;
+    font-weight: 650;
+}
+.showcase .container .info{
+    width: 50%; 
+    font-size: 15px;
+}
+.showcase .container .learn,
+.about .container .about-info .read,
+.gallery .container .seeMore,
+.services .container .read {
+    margin-top: 20px;
+    padding: 20px ;
+    background: #252525;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 60px;
+    font-size: 17px;
+}
+.showcase .container .learn:hover,
+.about .container .about-info .read:hover,
+.gallery .container .seeMore:hover{
+     background:#f76d37;
+     transition-duration: .5s;
+}
+.showcase .container .arrowButtons{
+    margin: -40px 0;
+}
+.showcase .container .arrowButtons button{
+    
+    margin: 20px 5px;
+    padding: 10px;
+    background: white;
+    border: none;
+    width: 50px;
+
+}
+.showcase .container .arrowButtons button:hover{
+    background:#f76d37;
+    color: white;
+    transition-duration: 1s;
+}
+/*about*/
+.about {
+    margin-bottom: 100px;
+}
+.about .container .about-info .mainheading{
+    padding-top: 150px;
+    margin: 0 auto; 
+    color: #f76d37;
+    font-weight: 900;
+    font-size: 40px;   
+}
+.about .container .about-info .info{
+    padding-top:50px;
+    width: 70%;
+}
+
+.about  img{
+    padding-top: 100px;
+    width: 100%;
+    height: 600px;
+}
+/*Gallery*/
+.gallery{
+    margin:100px 0;
+}
+.gallery .container .heading h1{  
+     margin-top: 150px;
+     color: #F76D37;
+    font-weight: 700;
+}
+.gallery .container .gallery-images img:hover{
+    opacity: 0.3;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+ }
+.gallery .container .gallery-images img{
+    width: 350px;
+    margin: 20px;
+    height: 350px;
+}
+/*Services*/
+.services{
+    background-image: url('../images/services-bg.png');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    color: white;
+    padding: 150px; 
+}
+.services .container .heading h1{  
+     
+    font-weight: 700;
+}
+.services .container .row .card{
+    margin: 5px auto;
+    background-color: #F76D37;
+}
+.services .container .row .card:hover{
+    background-color: white;
+    color: #252525;
+}
+.services .container .row .card img{
+    margin: 30px auto;
+    width: 50px;
+    height: 50px;
+}
+/*Testimonial*/
+.testimonial{
+    display: flex;
+    padding: 150px auto; 
+}
+.testimonial .container .mainheading{
+    padding-top: 150px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #f76d37;
+}
+.testimonial .container .info{
+    color: #252525;
+    padding-bottom: 50px;
+}
+.testimonial .container .subheading{
+    padding-left: 100px;
+    font-size: 26px;
+    font-weight: bolder;
+}
+.testimonial .container .subheading img{
+    padding-left: 30px;
+}
+.testimonial .container .monila{
+    font-size: 30px;
+    color: #f76d37;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-color: #252525;
+}
+.testimonial .container .monila p{
+    font-size: 16px;
+    padding-left: 50px;
+    margin: 10px;
+    color: #252525;
+}
+.testimonial .container  .row{
+    display: flex;
+    justify-content: center;
+}
+.testimonial .container  button{
+    margin: 50px 2px;
+    padding: 10px;
+    background: #252525;
+    border: none;
+    width: 70px;
+    height: 5px;
+    font-size: 16px;
+    border-radius: 50px;
+    color: #252525; 
+}
+.testimonial .container  button:hover{
+    background: #f76d37;
+    color: #f76d37;
+}
+/*Contact*/
+.contact .containe2r{
+    width: 100%;
+}
+.contact .container2 .heading{
+    padding-top: 150px;
+    padding-bottom: 50px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #f76d37;
+}
+.contact .container2 .row .col-xs-12,
+.contact .container2 .row .col-md-6 {
+    margin: 0 auto;
+    padding: 0 0;
+    
+}
+.contact .container2 .row .contactForm{
+    
+    background: url(../images/img-9.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.contact .container2 .row .googleMap{
+    height: 500px;
+}
+.contact .container2 .row .contactForm .form-control{
+    width: 80%;
+    margin: 15px auto;
+    color: #252525;
+    border: none;
+    border-radius: 50px;
+    font-size: 20px; 
+    padding:20px 0 20px 50px ;
+}
+.contact .container2 .row .contactForm .btn{
+    color: #ffffff !important;
+    background-color: #d33a11 !important;
+    border: none !important;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
+}
+.contact .container2 .row .contactForm .btn:hover{
+    color: black !important;
+    background-color: #ffffff !important;
+}
+/*usefulLinks*/
+.usefulLinks{
+    background-color: #252525;
+    padding:80px ;
+}
+.usefulLinks .heading{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.usefulLinks i{
+    margin-right: 10px;
+}
+.usefulLinks .container .row a:hover{
+    color: #f76d37;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+/*Copyrights*/
+.copy-rights{
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    padding-bottom:10px ;
+}
+.copy-rights  p{
+    text-align: center;
+    color: black;
+}
